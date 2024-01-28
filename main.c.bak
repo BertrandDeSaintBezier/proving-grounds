@@ -21,9 +21,7 @@ int main(int argc, char* argv[]){
 		printf("%d ", dynamic->array[i]);
 	}
 	printf("\n");
-	   
-	free(dynamic->array);
+	    free(dynamic->array);
     free(dynamic);
-	
 	return 0;
 }
