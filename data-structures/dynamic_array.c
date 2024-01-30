@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
-
 #include "dynamic_array.h"
 
 DynamicArray* dynamic_init(size_t init_size){

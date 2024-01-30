@@ -1,6 +1,9 @@
 #ifndef DYNAMIC_ARRAY_H_
 #define DYNAMIC_ARRAY_H_
 
+#include<stdio.h>
+#include<stdlib.h>
+
 typedef struct{
 	int* array;
 	int length;
